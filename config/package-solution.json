@@ -3,7 +3,7 @@
   "solution": {
     "name": "carousel-images",
     "id": "d79144e9-c547-480f-9fdb-ced2cd05b89c",
-    "version": "1.2.0.0",
+    "version": "1.2.0.2",
     "includeClientSideAssets": true,
     "isDomainIsolated": false
   },

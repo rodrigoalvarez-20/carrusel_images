@@ -62,7 +62,7 @@ class CarouselImages extends React.Component<ICarouselImagesProps, any> {
             return (
               <AspectRatio ratio="16/9" style={{ maxWidth: '100%' }}>
                 <img src={image.image} />
-                <p className="legend">{image.title}</p>
+                <p className="legend" style={{ opacity:"90%" }}>{image.title}</p>
               </AspectRatio>
             );
           })
