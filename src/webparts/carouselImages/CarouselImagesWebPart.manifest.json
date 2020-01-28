@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "881c1452-b887-47de-b427-902c7482db6a",
+  "alias": "CarouselImagesWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Carousel-Images" },
+    "description": { "default": "Carousel-Images description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "list_name": ""
+    }
+  }]
+}
